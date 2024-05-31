@@ -192,6 +192,22 @@ select {
   margin-bottom: 120px;
 }
 
+footer {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: #fff;
+  text-align: center;
+  padding: 2px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  border-top: 3px solid #f1f1f1;
+}
+
+footer b {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 468px) {
   .container {
     min-height: 100vh;
